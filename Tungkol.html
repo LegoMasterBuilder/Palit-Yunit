@@ -22,6 +22,14 @@
 <meta name="theme-color" content="#7952b3">
 <script src="https://kit.fontawesome.com/78e2287afc.js" crossorigin="anonymous"></script>
 
+<!-- You can use Open Graph tags to customize link previews.
+Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+<meta property="og:url"           content="https://palit-yunit.herokuapp.com/" />
+<meta property="og:type"          content="website" />
+<meta property="og:title"         content="Palit Yunit" />
+<meta property="og:description"   content="Ang Palit Yunit ay isang website na nagpapakita ng ugnayan ng mga yunit panukat ng Ingles/Metric at Filipino." />
+<meta property="og:image"         content="https://lh3.googleusercontent.com/n7YeC0jhFl6slUDtAY3IttwdoiDUi3RBtfMgUNlGKgyOrFHGC3Wma3LsjpUgZZ-nYfWWS9crvJhsX9Res3enICTK__h45-WivEl_kOm1tLG1jwfk4F3dgOwZfPatVK-bqkTGkNenzA=w2400" />
+
 <style>
         @media (min-width: 768px){
     .container{
@@ -43,6 +51,8 @@
 
 </head>
 <body>
+      <div id="fb-root"></div>
+          <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0" nonce="2vPTh5Ne"></script>
       <div class="header">
       <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
@@ -137,7 +147,7 @@
                   <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                       <div class="accordion-body accd_content">
                           <sup class="text-muted">[1]</sup> Almario, Virgilio S. KWF Manwal Sa Masinop Na Pagsulat. San Miguel, Maynila, Metro Manila: Komisyon sa Wikang Filipino, 2014. 
-                          </br><sup class="text-muted">[2]</sup> MANAPAT, RICARDO. "Mathematical Ideas in Early Philippine Society: Posthumous Essay." Philippine Studies 59, no. 3 (2011): 291-336. Accessed May 31, 2021. http://www.jstor.org/stable/42634685.
+                          </br><sup class="text-muted">[2]</sup> Manapat, Ricardo. "Mathematical Ideas in Early Philippine Society: Posthumous Essay." Philippine Studies 59, no. 3 (2011): 291-336. Accessed May 31, 2021. http://www.jstor.org/stable/42634685.
                           </br><sup class="text-muted">[3]</sup> Almario, Virgilio S. UP Diksiyonaryong Filipino. Quezon City: Sentro ng Wikang Filipino, Unibersidad ng Pilipinas, 2001. 
                           </br><sup class="text-muted">[4]</sup> Hosch, William L. The Britannica Guide to Numbers and Measurement. United States: Britannica Digital Learning, 2011. 
                           </br><sup class="text-muted">[5]</sup> University of the Philippines College Baguio and Faculty of the Discipline of Mathematics. The Algebra of the Weaving Patterns, Gong Music, and Kinship System of the Kankana-Ey of Mountain Province. Baguio City: Faculty of the Discipline of Mathematics, University of the Philippines College Baguio, 1996.
@@ -150,7 +160,7 @@
         <h3 class="display-7 headpage mx-3">I-SHARE ANG PALIT YUNIT</h3>
         <p class="text-muted mx-3 mb-2">Natulungan ka ba ng website na ito? Ibahagi ito sa iba gamit ang mga button sa ibaba:</p>
         <div class="mx-3">
-            <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fpalit-yunit.herokuapp.com%2F&layout=button_count&size=small&width=0&height=0&appId" width="0" height="0" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            <div class="fb-share-button" data-href="https://palit-yunit.herokuapp.com/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpalit-yunit.herokuapp.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
             <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" style="display:inline-block; vertical-align:top;"></a>
         </div>
         <p class="text-muted mx-3 mb-2 mt-2">Maaari ring kopyahin ang link sa ibaba:</p>
@@ -166,8 +176,6 @@
         <p class="align_center label">Gawang Pilipino © 2021</p>
     </div>
     <script src="index.js"></script>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/tl_PH/sdk.js#xfbml=1&version=v11.0" nonce="2QraWOdG"></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/tl_PH/sdk.js#xfbml=1&version=v11.0" nonce="n8W0gA6P"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
