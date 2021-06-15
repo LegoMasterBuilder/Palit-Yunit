@@ -155,11 +155,3 @@ p{
 .headpage{
     font-family: Poppins;
 }
-
-.field input{
-    width: 100%;
-    height: 100%;
-    border: none;
-    outline: none;
-    font-size: 15px;
-}
